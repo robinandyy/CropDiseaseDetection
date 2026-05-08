@@ -1,3 +1,9 @@
+"""
+Since Velez et al. do not discuss the use of folds, we use their train/test split on the data using one fold.
+Similarly, we use the RF model while using their hyperparameters.
+Baseline results are recorded without augmentation to begin.
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 from ctgan import CTGAN
